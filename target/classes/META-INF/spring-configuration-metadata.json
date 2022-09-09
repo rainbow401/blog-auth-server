@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "auth",
+      "type": "com.blog.auth.config.AuthProperties",
+      "sourceType": "com.blog.auth.config.AuthProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "auth.exp",
+      "type": "java.lang.Long",
+      "sourceType": "com.blog.auth.config.AuthProperties"
+    },
+    {
+      "name": "auth.issuer",
+      "type": "java.lang.String",
+      "sourceType": "com.blog.auth.config.AuthProperties"
+    },
+    {
+      "name": "auth.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.blog.auth.config.AuthProperties"
+    }
+  ],
+  "hints": []
+}
